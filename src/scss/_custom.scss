@@ -1,0 +1,17 @@
+//Reescribir variables bootstrap
+$rojo : #F34F51;
+$verde : #0098AE;
+$oscuro : #212121;
+$gris:#b5b5b5;
+
+//Asignar paleta colores a BS
+$primary:$rojo;
+$secondary:$verde;
+$dark:$oscuro;
+
+//Reescribiendo estilos de enlaces
+$nav-link-color:$gris;
+$nav-link-hover-color:darken($gris,10%);
+$nav-link-padding-x:0;
+//Importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+
+main {
+    .container {
+        width: 70%;
+    }
+}
+.card{
+    border: none;
+
+    p{
+        font-size:.8rem;
+    }
+}
+
+section {
+    .span{
+        color:rgb(88, 85, 85);
+        display: inline-block;
+        margin-bottom: .7rem;
+    }
+}
+
+section {
+    .logo{
+        
+        img{
+            height: 3rem;
+        }
+    }
+
+    .apps{
+
+        img{
+            height: 3rem;
+        }
+    }
+}
